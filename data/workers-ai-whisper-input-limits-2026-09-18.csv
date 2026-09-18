@@ -1,0 +1,11 @@
+input,size_or_length,result,note
+video payload,"2,700,000 bytes (MP4, 10 s)",accepted,transcribed
+video payload,"2,900,000 bytes (MP4, 10 s)",accepted,transcribed
+video payload,"2,953,029 bytes (MP4, 10 s)",rejected,error 3006: Request is too large
+audio only,"50 s (205,271 bytes)",accepted,transcribed
+audio only,"60 s (246,089 bytes)",accepted,transcribed
+audio only,"70 s (287,080 bytes)",accepted,transcribed
+audio only,"80 s (327,842 bytes)",rejected,error 3010: Unsupported audio input
+audio only,"32 s (132,707 bytes, rebuilt MP4)",accepted,text matched the video's own caption track
+raw AAC in ADTS,"10 s (88,189 bytes)",accepted but wrong,model returned boilerplate; each MP4 sample held 2 AAC frames
+WAV 16 kHz mono,1 s / 5 s / 20 s,accepted,"tone and silence returned boilerplate, as expected"
