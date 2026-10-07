@@ -42,18 +42,6 @@ dependencies.
 caption events and writes TXT, SRT and VTT. Pass `--txt`, `--srt` or `--vtt` with
 a path to choose the output file.
 
-## Pages on the site
-
-https://watchtotext.com/ takes a public YouTube, TikTok or Instagram video link and returns the available transcript, which you can copy or download as a text file.
-
-https://watchtotext.com/youtube-transcript-download/ builds a TXT, SRT or VTT file in the browser from a YouTube caption track, and lists each caption language when the video has more than one.
-
-https://watchtotext.com/tiktok-transcript/ is the TikTok entry point: paste a public TikTok video link to get the available transcript.
-
-https://watchtotext.com/instagram-transcript/ is the Instagram entry point: paste a public Instagram reel or video link to get the available transcript.
-
-https://watchtotext.com/how-to-get-a-transcript-of-a-youtube-video/ walks through getting a YouTube transcript step by step: paste the link, copy the text or save it as TXT or timed SRT, and what the status message means when a video has no usable captions.
-
 ## Terms
 
 MIT. The measurements are free to quote with a link back to this repository.
