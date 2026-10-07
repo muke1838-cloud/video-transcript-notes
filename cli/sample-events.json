@@ -1,0 +1,16 @@
+[
+  {
+    "start": 80,
+    "duration": 3760,
+    "text": "A paper boat crossed the kitchen table."
+  },
+  {
+    "start": 2000,
+    "duration": 2500,
+    "text": "The second line starts before the first one ends."
+  },
+  {
+    "start": 9000,
+    "text": "This line has no duration, so the file uses three seconds."
+  }
+]
